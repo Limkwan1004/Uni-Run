@@ -12,7 +12,7 @@ public class TileManager : MonoBehaviour
     public Queue<GameObject> _tiles = new Queue<GameObject>();
     public Transform _tileSpawnPoint;
 
-    private float _spawnTime = 1.2f;
+    private float _spawnTime = 1.3f;
     private int _spawnCount = 7;
 
     private IEnumerator TileSpawn_co;
